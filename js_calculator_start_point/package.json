@@ -7,7 +7,7 @@
     "webdriver": "webdriver-manager start",
     "protractor": "protractor conf.js",
     "test": "mocha tests/unit/calculator_spec.js",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
